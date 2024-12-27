@@ -1,0 +1,152 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+header {
+  background-color: #be4949; /* Dark gray background color */
+  padding: 20px 20px;
+  font-size: 20px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.nav-link {
+  margin-right: 15px;
+  color: #ddd; /* Light gray color for nav links */
+}
+
+.nav-link:hover {
+  color: #fff; /* White color on hover */
+}
+
+.nav-link.btn {
+  margin-left: 15px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  background-color: #ffc107; /* Yellow color for the button */
+  color: #000; /* Black text color */
+}
+
+.nav-link.btn:hover {
+  background-color: #e0a800; /* Darker shade of yellow on hover */
+  color: #000; /* Black text color on hover */
+}
+
+.hero-section {
+  background-image: url('images/pexels-chanwalrus-958545.jpg'); /* Update with correct image path */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 60vh;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-section p {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.signature-dishes {
+  background-color:  #be4949; /* Black background color */
+  color: black; /* White text color */
+  height: fit-content;
+}
+
+.signature-dishes .dish {
+  text-align: center;
+}
+
+.signature-dishes img {
+  border-radius: 50%;
+  width: 200px; /* Fixed width */
+  height: 200px; /* Fixed height */
+  object-fit: cover; /* Ensures the image covers the area */
+}
+
+.signature-dishes h5 {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+}
+.about img {
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+.catering{
+  background-color: #c7c8c9;
+}
+.catering i {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #ffc107;
+}
+
+.catering h5 {
+  font-size: 1.25rem;
+}
+
+.menu img {
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  width: 230px; /* Fixed width */
+  height: 230px; /* Fixed height */
+}
+
+.menu h5 {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+}
+
+.chef img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.reservation{
+  background-image: url('images/book\ table.webp'); /* Update with correct image path */
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+}
+
+.form{
+  width: 40%;
+}
+
+.blog img {
+  width: 200px;
+  height: 200px;
+ object-fit: cover;
+}
+.testimonials{
+  background-color: #343a40;
+  color: #c7c8c9;
+}
+.testimonials img {
+  width: 200px;
+  height: 200px;
+ object-fit: cover;
+}
+.contactDiv{
+  align-content: center;
+}
+footer {
+  background-color: #343a40;
+  color: #fff;
+}
+
+footer a {
+  color: #ffc107;
+}
